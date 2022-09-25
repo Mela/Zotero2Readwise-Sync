@@ -1,5 +1,7 @@
 # Zotero2Readwise-Sync 
-[![Zotero ➡️ Readwise Automation](https://github.com/e-alizadeh/Zotero2Readwise-Sync/actions/workflows/automation.yml/badge.svg)](https://github.com/e-alizadeh/Zotero2Readwise-Sync/actions/workflows/automation.yml/badge.svg)
+
+
+[![Zotero to Readwise Automation](https://github.com/Mela/Zotero2Readwise-Sync/actions/workflows/automation.yml/badge.svg)](https://github.com/Mela/Zotero2Readwise-Sync/actions/workflows/automation.yml)
 
 This repo has actually a cronjob (time-based Job scheduler) using GitHub actions that automates the Zotero -> Readwise 
 integration using the [Zotero2Readwise](https://github.com/e-alizadeh/Zotero2Readwise) Python library. 
