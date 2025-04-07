@@ -28,3 +28,9 @@ jobs:
 
       - name: 🚀 Run Automation
         run: python -m zotero2readwise.run ${{ secrets.READWISE_TOKEN }} ${{ secrets.ZOTERO_KEY }} ${{ secrets.ZOTERO_ID }}
+
+      - name: 🧳 Upload failed Zotero items
+        uses: actions/upload-artifact@v4
+        with:
+          name: failed-zotero-items
+          path: /opt/hostedtoolcache/Python/3.11.11/x64/lib/python3.11/site-packages/zotero2readwise/failed_zotero_items.json
